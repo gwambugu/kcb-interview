@@ -78,7 +78,7 @@ public class CoreBankingResource {
             log.debug("stringHttpEntity" + stringHttpEntity.getBody().toString());
             return stringHttpEntity;
         } catch (RestClientException e) {
-            log.error("POS CHECKOUT checkOutV3 RestClientException: " + e.getMessage());
+            log.error("Daraja RestClientException: " + e.getMessage());
             return null;
         }
         return null;
